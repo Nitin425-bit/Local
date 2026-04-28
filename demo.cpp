@@ -2,7 +2,7 @@
 using namespace std;
 // This is only for learning purpose
 
-int add_sum(int a, int b) {
+int Add (int a, int b) {
     return a + b;
 }
 
@@ -13,7 +13,7 @@ int main()
     cin>>a;
     cout << "Enter a another value: ";
     cin>>b;
-    cout << add_sum(a, b) << endl;
+    cout << Add (a, b) << endl;
     
    return 0;
 }
