@@ -6,6 +6,10 @@ int Add (int a, int b) {
     return a + b;
 }
 
+int Divid (int a, int b) {
+    return a % b;
+}
+
 int main()
 {
     int a, b;
@@ -14,6 +18,7 @@ int main()
     cout << "Enter a another value: ";
     cin>>b;
     cout << Add (a, b) << endl;
+    cout << Divid(a, b) << endl;
     
    return 0;
 }
